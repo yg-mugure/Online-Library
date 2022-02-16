@@ -1,0 +1,62 @@
+.logo{
+   /* background-color: aqua; */
+    width:10%;
+    height: 10%;
+    display: flex;
+    align-items: flex-start;
+}
+.logo img{
+    width: 50%;
+}
+.logo h1{
+    align-content: flex-start;
+    font-size: 50px;
+    color: blue;
+    
+}
+.topnav{
+    /* background-color: brown; */
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    right: 20px;
+    top: 50px;
+    
+}
+.topnav a{
+    color: blue;
+}
+.main{
+    margin: auto;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content:space-between;
+    width: 95%;   
+}
+.image{
+    /* background-color: aqua; */
+    float: left;
+}
+.text{
+    padding-top:150px ;
+    padding-left:60px;
+    /* background-color: burlywood; */
+}
+.text h2{
+    color: blue;
+    padding-left: 80px;
+    font-size: 60px;
+}
+.text p{
+    color: rgb(104, 104, 104);
+}
+.button button{
+    float:right;
+    background-color: white;
+    border:2px solid blue;
+    
+    
+    
+}
